@@ -1,0 +1,5 @@
+name: Timezone Clock
+description: Provides a custom block and admin interface to set timezone and show clock.
+package: Custom
+type: module
+core_version_requirement: ^8 || ^9
