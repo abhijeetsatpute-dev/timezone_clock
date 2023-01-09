@@ -1,0 +1,10 @@
+timezone_clock:
+ country: 'India'
+ city: 'Mumbai'
+ timezone: 'Asia/Kolkata'
+dependencies:
+  module:
+    - timezone_clock
+  enforced:
+    module:
+      - timezone_clock
