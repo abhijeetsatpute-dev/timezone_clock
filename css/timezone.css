@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Styling for the timezone clock.
+ */
+
+/**
+ * Time css.
+ */
+.timezone-clock-wrapper .time {
+  font-size: 24px;
+  font-weight: bold;
+}

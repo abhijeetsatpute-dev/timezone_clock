@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Theme hooks to register template for a block.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function timezone_clock_theme($existing, $type, $theme, $path) {
+  return [
+    'timezone_clock' => [
+      'template' => 'timezone-clock',
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'formatted_datetime' => NULL,
+      ],
+    ],
+  ];
+}

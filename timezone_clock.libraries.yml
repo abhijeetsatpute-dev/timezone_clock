@@ -1,0 +1,5 @@
+timezone:
+  version: VERSION
+  css:
+    theme:
+      css/timezone.css: {}

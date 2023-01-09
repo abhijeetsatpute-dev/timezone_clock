@@ -10,7 +10,7 @@ use Drupal\Core\Config\ConfigFactoryInterface;
  */
 class TimezoneServices {
 
-  const DATETIMEFORMAT = 'jS M Y - h:i:s A';
+  const DATETIMEFORMAT = 'jS M Y - h:i A';
 
   /**
    * The cron configuration.
