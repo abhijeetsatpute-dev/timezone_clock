@@ -33,10 +33,3 @@ No special requirements.
  * Enable timezone_clock module in admin/modules.
  * Configure the timezone settings at admin/structure/timezone-clock/settings.
  * Place Timezone Clock Block in admin/structure/block
-
-
-## KNOWN ISSUES
-
- * Time shows in a block will not get updated if user is on the same page for long time.
- * Reloading current page will not invalidate cache tags, so the time will be unchanged.
- * Time will get updated once user navigate to another page.
